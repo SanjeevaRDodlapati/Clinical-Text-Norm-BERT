@@ -94,9 +94,10 @@ training_args = Seq2SeqTrainingArguments(
     per_device_eval_batch_size=batch_size,
     fp16=True,
     output_dir="./",
-    logging_steps=1000,
-    save_steps=5000,
-    eval_steps=5000,)
+    logging_steps=10000,
+    save_steps=50000,
+    eval_steps=50000,
+    num_train_epochs=10)
 
 
 
