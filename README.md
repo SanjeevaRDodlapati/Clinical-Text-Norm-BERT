@@ -13,3 +13,6 @@ To preprocess the data, run ./data_preprocess/preprocess_mimic_notes.ipynb. Chan
 [ClinicalBERT](https://aclanthology.org/W19-1909.pdf) which is finetuned on clinical notes is to be adopted for clinical notes text normalization. You can download the pretrained ClinicalBERT model from hugginface (https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT).
 
 
+## Train Clinical-Text-Norm-BERT Encoder-Decoder
+Run finetune_bert2bert.py (give appropriate data folder paths)
+
